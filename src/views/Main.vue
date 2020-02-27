@@ -25,9 +25,6 @@ export default {
 			if (this.checkValid(this.ipAdress)) {
 				this.isValid = true;
 				this.$store.dispatch("getResult", this.ipAdress);
-				let table = this.tableResult;
-				table.rows[0] = this.result;
-				this.tableResult = table;
 			} else {
 				this.ipAdress = "";
 				this.isValid = false;
