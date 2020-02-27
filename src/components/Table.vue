@@ -25,14 +25,14 @@ export default {
 		<!-- placeholder value. Something like 000.000.00.00 -->
 		<tr v-if="(rows.length === 0 || rows[0].length === 0) && placeholder != ''">
 			<td
-				:key="'_' + i"
+				:key="'--' + i"
 				v-for="(a, n, i) in head"
 				v-html="i === 0 ? placeholder : ''"
 			></td>
 		</tr>
 		<!-- Rows -->
-		<tr :key="i" v-for="(row, i) of rows" v-show="row.length !== 0">
-			<td :key="item" v-for="item in row">{{ item }}</td>
+		<tr :key="'-' + i" v-for="(row, i) of rows" v-show="row.length !== 0">
+			<td :key="item + i" v-for="(item, i) in row">{{ item }}</td>
 		</tr>
 	</table>
 </template>

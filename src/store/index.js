@@ -16,6 +16,19 @@ export default new Vuex.Store({
 		CLEAR_HISTORY(state) {
 			state.history = [];
 		},
+		SET_ERROR_RESULT(state, payload) {
+			let res = {
+				ipAdress: payload,
+				continentCode: "—",
+				countryCode: "—",
+				city: "—",
+				postcode: "—",
+				coordinates: "—"
+			};
+			let result = [];
+			result[0] = res;
+			state.result = result;
+		},
 		SET_RESULT(state, payload) {
 			let res = {
 				ipAdress: payload.address,
@@ -78,7 +91,8 @@ export default new Vuex.Store({
 				});
 				commit("SET_RESULT", response.data.ipAddress);
 			} catch (e) {
-				console.log(e);
+				commit("SET_ERROR_RESULT", payload);
+				// console.log(e);
 			}
 		}
 	},
