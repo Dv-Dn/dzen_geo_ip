@@ -1,0 +1,14 @@
+.header {
+	width: 100%;
+	padding: 12px;
+	background-color: #656bf2;
+}
+.header__main {
+	display: flex;
+	justify-content: space-between;
+}
+.header__title {
+	font-size: 18px;
+	font-weight: 800;
+	color: #fff;
+}

@@ -1,0 +1,27 @@
+button {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  min-width: 254px;
+  padding: 13px;
+  cursor: pointer;
+  transition: .3s;
+  opacity: .85;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ff5252;
+}
+button:hover {
+  box-shadow: 0 0 20px rgba(255, 108, 108, .7);
+}
+button:active {
+  box-shadow: none;
+}
+.button_disabled {
+  cursor: auto;
+  background-color: #e6e6e6;
+}
+.button_disabled:hover {
+  box-shadow: none;
+}

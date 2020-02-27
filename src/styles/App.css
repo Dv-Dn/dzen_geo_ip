@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Open Sans";
+	background-color: #e5e5e5;
+}
+
+#app {
+	min-width: 1280px;
+	max-width: 2560px;
+}
+.container {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}

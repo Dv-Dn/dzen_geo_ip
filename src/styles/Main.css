@@ -1,0 +1,18 @@
+.Main {
+	width: 100%;
+
+	margin-top: 57px;
+	padding: 48px;
+	background-color: #fff;
+	box-shadow: 0 0 50px rgba(230, 230, 230, 0.8);
+	display: grid;
+	grid-gap: 48px;
+}
+.Main__input-block {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.Main__history-block {
+	width: 50%;
+}

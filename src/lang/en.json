@@ -1,0 +1,20 @@
+{
+	"ipAdress": "IP Address",
+	"getInformation": "Get information",
+	"clearHistory": "Clear history",
+	"result": "Result",
+	"history": "History",
+	"resultTable": {
+		"ipAdress": "IP address",
+		"continentCode": "Continent/code",
+		"countryCode": "Country/code",
+		"city": "City",
+		"postcode": "Postcode",
+		"coordinates": "Coordinates"
+	},
+	"historyTable": {
+		"ipAdress": "IP address",
+		"countryCode": "Country/code",
+		"city": "City"
+	}
+}

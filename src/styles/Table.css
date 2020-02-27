@@ -1,0 +1,38 @@
+.table {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  border-spacing: 0;
+  text-align: center;
+  color: #969696;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.table__title {
+  font-size: 18px;
+  margin-bottom: 13px;
+  text-align: left;
+  color: #000;
+}
+.table__head-row {
+  height: 34px;
+  color: #fff;
+  background-color: #656bf2;
+}
+tr {
+  height: 38px;
+}
+tr:not(:nth-child(2)) td {
+  border-top: 1px solid #ccc;
+}
+th, td {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+}
+td {
+  min-width: 50px;
+}
+td:not(:last-child) {
+  border-right: 1px solid #ccc;
+}

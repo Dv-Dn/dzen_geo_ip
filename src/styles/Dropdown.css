@@ -1,0 +1,60 @@
+.dropdown {
+	font-size: 18px;
+	margin: 0 10px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.dropdown__main {
+	position: relative;
+	z-index: 7;
+	right: 0;
+	cursor: pointer;
+}
+.dropdown__main div {
+	display: flex;
+	align-items: center;
+}
+.dropdown__list {
+	position: absolute;
+	left: 6px;
+	margin-top: 2px;
+	padding: 8px 15px;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 20px 50px rgba(229, 229, 229, 0.8);
+}
+.dropdown__li {
+	margin: 7px 0;
+	list-style: none;
+	color: #000;
+}
+.dropdown__li:hover {
+	color: #e6e6e6;
+}
+.dropdown__li__active {
+	color: #656bf2;
+}
+.dropdown__backdrop {
+	position: fixed;
+	z-index: 6;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.dropdown__icon {
+	font-size: 9px;
+	margin-left: 4px;
+	transition: 0.07s ease-in;
+	transform: rotate(180deg);
+}
+.dropdown__icon__animate {
+	transform: rotate(360deg);
+}
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+	opacity: 0;
+}

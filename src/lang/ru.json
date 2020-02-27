@@ -1,0 +1,20 @@
+{
+	"ipAdress": "IP адрес",
+	"getInformation": "Получить информацию",
+	"clearHistory": "Очистить историю",
+	"result": "Результат запроса",
+	"history": "История",
+	"resultTable": {
+		"ipAdress": "IP адрес",
+		"continentCode": "Континент/код континета",
+		"countryCode": "Страна/код страны",
+		"city": "Город",
+		"postcode": "Почтовый индекс",
+		"coordinates": "Координаты"
+	},
+	"historyTable": {
+		"ipAdress": "IP адрес",
+		"countryCode": "Страна/код страны",
+		"city": "Город"
+	}
+}
