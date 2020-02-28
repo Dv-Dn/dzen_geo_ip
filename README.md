@@ -1,5 +1,7 @@
 # dzen_geo_ip
 
+Deploy-link: https://dzen-geo-ip.firebaseapp.com/
+
 ## Project setup
 ```
 yarn install
