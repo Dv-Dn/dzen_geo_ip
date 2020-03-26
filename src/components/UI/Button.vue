@@ -11,16 +11,13 @@ export default {
 };
 </script>
 <template>
-	<div :style="{ margin }">
+	<div :style="{ margin }" class="button-block">
 		<button
 			:class="{ button_disabled: disabled }"
 			@click="disabled ? null : $emit('click')"
+			class="button"
 		>
 			{{ this.value }}
 		</button>
 	</div>
 </template>
-
-<style scoped>
-@import url("~@/styles/Button.css");
-</style>

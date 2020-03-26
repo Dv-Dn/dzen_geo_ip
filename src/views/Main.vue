@@ -50,8 +50,8 @@ export default {
 </script>
 
 <template>
-	<main class="container Main">
-		<div class="Main__input-block">
+	<main class="container main">
+		<div class="main__input-block">
 			<Input
 				width="100%"
 				placeholder="000.000.00.00"
@@ -66,7 +66,7 @@ export default {
 			/>
 		</div>
 
-		<div class="Main__result-block">
+		<div class="main__result-block">
 			<Table
 				:head="get_lang_data.resultTable"
 				:title="get_lang_data.result"
@@ -75,7 +75,7 @@ export default {
 			/>
 		</div>
 
-		<div class="Main__history-block">
+		<div class="main__history-block">
 			<Table
 				:head="get_lang_data.historyTable"
 				:title="get_lang_data.history"
@@ -92,5 +92,5 @@ export default {
 	</main>
 </template>
 <style scoped>
-@import url("~@/styles/Main.css");
+/* @import url("~@/styles/Main.css"); */
 </style>

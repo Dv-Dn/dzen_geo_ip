@@ -12,25 +12,21 @@ export default {
 			default: "0"
 		},
 		width: String
-	},
-	methods: {}
+	}
 };
 </script>
 
 <template>
-	<div :style="{ margin, width }">
-		<label>
+	<div :style="{ margin, width }" class="input">
+		<label class="input__label">
 			<input
+				class="input__field"
 				type="text"
 				:placeholder="invalid ? '' : placeholder"
 				@input="$emit('change', $event.target.value)"
 				:value="value"
 			/>
-			<div :class="{ Input__error: invalid }"></div>
+			<div :class="{ Input__error: invalid }" class="input__border"></div>
 		</label>
 	</div>
 </template>
-
-<style scoped>
-@import url("~@/styles/Input.css");
-</style>

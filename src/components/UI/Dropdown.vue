@@ -60,6 +60,3 @@ export default {
 		</div>
 	</div>
 </template>
-<style scoped>
-@import url("~@/styles/Dropdown.css");
-</style>

@@ -1,4 +1,4 @@
-button {
+.button {
   font-family: 'Open Sans';
   font-size: 16px;
   min-width: 254px;
@@ -12,10 +12,10 @@ button {
   outline: none;
   background-color: #ff5252;
 }
-button:hover {
+.button:hover {
   box-shadow: 0 0 20px rgba(255, 108, 108, .7);
 }
-button:active {
+.button:active {
   box-shadow: none;
 }
 .button_disabled {

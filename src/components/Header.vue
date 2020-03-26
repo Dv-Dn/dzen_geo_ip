@@ -28,7 +28,3 @@ export default {
 		</div>
 	</header>
 </template>
-
-<style scoped>
-@import url("~@/styles/Header.css");
-</style>

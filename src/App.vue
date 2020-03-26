@@ -8,8 +8,7 @@ export default {
 	components: {
 		Main,
 		Header
-	},
-
+	}
 };
 </script>
 
@@ -22,5 +21,5 @@ export default {
 </template>
 
 <style>
-@import url("~@/styles/App.css");
+	@import '~@/styles/main.css';
 </style>

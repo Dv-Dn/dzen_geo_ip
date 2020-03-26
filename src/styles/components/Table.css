@@ -19,20 +19,20 @@
   color: #fff;
   background-color: #656bf2;
 }
-tr {
+.table__tr {
   height: 38px;
 }
-tr:not(:nth-child(2)) td {
+.table__tr:not(:nth-child(2)) td {
   border-top: 1px solid #ccc;
 }
-th, td {
+.table__th, .table__td {
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
 }
-td {
+.table__td {
   min-width: 50px;
 }
-td:not(:last-child) {
+.table__td:not(:last-child) {
   border-right: 1px solid #ccc;
 }
